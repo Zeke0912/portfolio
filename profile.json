@@ -1,0 +1,71 @@
+{
+  "name": "Rolly Alonso",
+  "title": "Full Stack Developer | Database Manager | IT Professional",
+  "bio": "BSIT Graduate from University of Cebu with a passion for building robust web applications and managing complex databases. Experienced in full-stack development with a strong foundation in both frontend and backend technologies. Dedicated to delivering high-quality solutions and continuous learning.",
+  "education": {
+    "degree": "Bachelor of Science in Information Technology (BSIT)",
+    "institution": "University of Cebu",
+    "status": "Graduate"
+  },
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "PHP",
+    "MySQL",
+    "MongoDB",
+    "Database Design & Management",
+    "RESTful APIs",
+    "Git & Version Control",
+    "UI/UX Design",
+    "Responsive Web Design"
+  ],
+  "expertise": [
+    "Full Stack Web Development",
+    "Database Architecture & Optimization",
+    "Backend API Development",
+    "Frontend Component Development",
+    "Database Management Systems",
+    "Software Design Patterns",
+    "Project Planning & Execution"
+  ],
+  "services": [
+    "Full Stack Web Development",
+    "Database Design & Management",
+    "API Development & Integration",
+    "UI/UX Design",
+    "Technical Consulting",
+    "Website Optimization",
+    "Custom Software Solutions"
+  ],
+  "projects": [
+    {
+      "name": "E-Commerce Platform",
+      "description": "Built a full-featured e-commerce website with product catalog, shopping cart, payment integration, and admin dashboard using React and Node.js",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
+      "url": ""
+    },
+    {
+      "name": "Task Management Application",
+      "description": "Developed a collaborative task management app with real-time updates, user authentication, and database-backed task storage",
+      "technologies": ["React", "Node.js", "MySQL", "Socket.io"],
+      "url": ""
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Created a responsive personal portfolio with AI-powered chatbot integrated with Google Generative AI",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Gemini API"],
+      "url": ""
+    }
+  ],
+  "email": "your.email@example.com",
+  "phone": "+63 (XXX) XXX-XXXX",
+  "location": "Cebu, Philippines",
+  "linkedin": "https://linkedin.com/in/rollyalonso",
+  "github": "https://github.com/rollyalonso",
+  "availability": "Open to freelance and full-time opportunities"
+}
