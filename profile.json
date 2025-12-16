@@ -44,6 +44,18 @@
   ],
   "projects": [
     {
+      "name": "Keepsake",
+      "description": "A digital platform to store, track, and share your baby's health records and milestones with ease",
+      "technologies": ["Mobile Development", "Database Management", "Health Tech"],
+      "url": "https://keepsake-pi.vercel.app/"
+    },
+    {
+      "name": "Employee Management System",
+      "description": "A System for Efficient Employee Management with full CRUD operations and reporting features",
+      "technologies": ["Full Stack", "Database Systems", "Web Development"],
+      "url": "https://ipt-final-2025-alonso.onrender.com/"
+    },
+    {
       "name": "E-Commerce Platform",
       "description": "Built a full-featured e-commerce website with product catalog, shopping cart, payment integration, and admin dashboard using React and Node.js",
       "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
@@ -57,13 +69,13 @@
     },
     {
       "name": "Portfolio Website",
-      "description": "Created a responsive personal portfolio with AI-powered chatbot integrated with Google Generative AI",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "Gemini API"],
+      "description": "Created a responsive personal portfolio with AI-powered RAG chatbot using Flowise framework",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Flowise", "RAG"],
       "url": ""
     }
   ],
-  "email": "your.email@example.com",
-  "phone": "+63 (XXX) XXX-XXXX",
+  "email": "rollyalonso88@gmail.com",
+  "phone": "09998873858",
   "location": "Cebu, Philippines",
   "linkedin": "https://linkedin.com/in/rollyalonso",
   "github": "https://github.com/rollyalonso",
