@@ -23,6 +23,9 @@
                     <li class="nav-item"><a class="nav-link" href="#works">My Works</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
+                <span class="navbar-text ms-3 text-muted small">
+                    💬 AI Assistant available (bottom-right)
+                </span>
             </div>
         </div>
     </nav>
@@ -114,27 +117,9 @@
         </div>
     </section>
 
-    <!-- Chatbot Section -->
-    <section id="chat" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Chat with Me</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="chat-container">
-                        <div id="chatbox" class="chatbox">
-                            <div class="message bot-message">
-                                <p>Hi! I'm your AI assistant. How can I help you today? 😊</p>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <input type="text" id="userInput" class="form-control" placeholder="Type your message...">
-                            <button class="btn btn-primary" type="button" id="sendBtn">Send</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Chatbot Section - Now using Flowise floating widget -->
+    <!-- The chatbot will appear as a floating button in the bottom-right corner -->
+    <!-- No section needed - it's handled by the Flowise embed script below -->
 
     <!-- Contact Section -->
     <section id="contact" class="py-5 bg-dark text-white">
@@ -146,7 +131,7 @@
             <div class="social-links">
                 <a href="#" class="btn btn-outline-light btn-sm mx-2">LinkedIn</a>
                 <a href="#" class="btn btn-outline-light btn-sm mx-2">GitHub</a>
-                <a href="#" class="btn btn-outline-light btn-sm mx-2">Twitter</a>
+                <a href="https://www.facebook.com/ROLLyALOnSOXD/" target="_blank" class="btn btn-outline-light btn-sm mx-2">facebook</a>
             </div>
         </div>
     </section>
@@ -156,6 +141,53 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="chatbot.js"></script>
+
+    <!-- FLOWISE EMBED CODE - REPLACE THIS SECTION AFTER SETTING UP FLOWISE -->
+    <!--
+    INSTRUCTIONS:
+    1. Complete Flowise setup (see FLOWISE_SETUP_GUIDE.md)
+    2. Get your embed code from Flowise dashboard
+    3. Replace this entire comment block with your actual Flowise embed code
+
+    Example Flowise embed code:
+    <script type="module">
+      import Chatbot from 'https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js'
+      Chatbot.init({
+        chatflowid: 'your-chatflow-id-here',
+        apiHost: 'https://your-flowise-url.com',
+        theme: {
+          button: {
+            backgroundColor: '#3B81F6',
+            right: 20,
+            bottom: 20,
+            size: 'medium',
+            iconColor: 'white',
+          },
+          chatWindow: {
+            welcomeMessage: 'Hi! I\'m Rolly\'s AI assistant. Ask me about his skills, projects, or services!',
+            backgroundColor: '#ffffff',
+            height: 500,
+            width: 400,
+            fontSize: 16,
+            botMessage: {
+              backgroundColor: '#f7f8ff',
+              textColor: '#303235',
+            },
+            userMessage: {
+              backgroundColor: '#3B81F6',
+              textColor: '#ffffff',
+            },
+            textInput: {
+              placeholder: 'Type your message...',
+              backgroundColor: '#ffffff',
+              textColor: '#303235',
+              sendButtonColor: '#3B81F6',
+            }
+          }
+        }
+      })
+    </script>
+    -->
+    <!-- END FLOWISE EMBED CODE -->
 </body>
 </html>

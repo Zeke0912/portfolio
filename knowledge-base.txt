@@ -1,0 +1,170 @@
+# ROLLY ALONSO - PORTFOLIO KNOWLEDGE BASE
+
+## PERSONAL INFORMATION
+Name: Rolly Alonso
+Title: Full Stack Developer | Database Manager | IT Professional
+Alternative Title: Full Stack Developer | Designer | Problem Solver
+Location: Cebu, Philippines
+
+## PROFESSIONAL BIO
+I am a BSIT Graduate from University of Cebu with a passion for building robust web applications and managing complex databases. I am experienced in full-stack development with a strong foundation in both frontend and backend technologies. I am dedicated to delivering high-quality solutions and continuous learning. I'm a passionate developer with expertise in web development, mobile apps, and software solutions. I love creating elegant solutions to complex problems.
+
+## EDUCATION
+Degree: Bachelor of Science in Information Technology (BSIT)
+Institution: University of Cebu
+Status: Graduate
+
+## TECHNICAL SKILLS
+Frontend Technologies:
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- UI/UX Design
+- Responsive Web Design
+
+Backend Technologies:
+- Node.js
+- Express.js
+- Python
+- PHP
+
+Database Technologies:
+- MySQL
+- MongoDB
+- Database Design & Management
+- Database Architecture & Optimization
+
+Other Skills:
+- RESTful APIs
+- API Development & Integration
+- Git & Version Control
+- Software Design Patterns
+- Project Planning & Execution
+
+## EXPERTISE AREAS
+- Full Stack Web Development
+- Database Architecture & Optimization
+- Backend API Development
+- Frontend Component Development
+- Database Management Systems
+- Software Design Patterns
+- Project Planning & Execution
+
+## SERVICES OFFERED
+1. Full Stack Web Development - Creating responsive and modern websites using latest technologies
+2. Database Design & Management
+3. API Development & Integration
+4. UI/UX Design - Designing beautiful and intuitive user interfaces
+5. Technical Consulting - Providing technical advice and project guidance
+6. Website Optimization
+7. Custom Software Solutions
+
+## PORTFOLIO PROJECTS
+
+### Project 1: Keepsake
+Description: A digital platform to store, track, and share your baby's health records and milestones with ease.
+Technologies Used: Mobile app development, database management
+Live URL: https://keepsake-pi.vercel.app/
+Status: Deployed and Live
+
+### Project 2: Employee Management System
+Description: A System for Efficient Employee Management
+Technologies Used: Full stack web development, database systems
+Live URL: https://ipt-final-2025-alonso.onrender.com/
+Status: Deployed and Live
+
+### Project 3: E-Commerce Platform
+Description: Built a full-featured e-commerce website with product catalog, shopping cart, payment integration, and admin dashboard using React and Node.js
+Technologies Used: React, Node.js, MongoDB, Stripe API
+Status: Completed
+
+### Project 4: Task Management Application
+Description: Developed a collaborative task management app with real-time updates, user authentication, and database-backed task storage
+Technologies Used: React, Node.js, MySQL, Socket.io
+Status: Completed
+
+### Project 5: Portfolio Website
+Description: Created a responsive personal portfolio with AI-powered chatbot integrated with Google Generative AI
+Technologies Used: HTML5, CSS3, JavaScript, Gemini API
+Status: Live and Active
+
+## CONTACT INFORMATION
+Email: rollyalonso88@gmail.com
+Phone: 09998873858
+Phone (International Format): +63 999 887 3858
+Location: Cebu, Philippines
+
+Social Media:
+- LinkedIn: https://linkedin.com/in/rollyalonso
+- GitHub: https://github.com/rollyalonso
+- Facebook: https://www.facebook.com/ROLLyALOnSOXD/
+
+## AVAILABILITY
+Status: Open to freelance and full-time opportunities
+Work Type: Available for both freelance projects and full-time positions
+Remote Work: Available for remote opportunities
+
+## FREQUENTLY ASKED QUESTIONS
+
+Q: What services do you offer?
+A: I offer Full Stack Web Development, Database Design & Management, API Development & Integration, UI/UX Design, Technical Consulting, Website Optimization, and Custom Software Solutions.
+
+Q: What are your main skills?
+A: My main skills include HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, Python, PHP, MySQL, MongoDB, Database Design, RESTful APIs, Git, UI/UX Design, and Responsive Web Design.
+
+Q: What projects have you completed?
+A: I have completed several projects including Keepsake (baby health records platform), Employee Management System, E-Commerce Platform with payment integration, Task Management Application with real-time updates, and this AI-powered Portfolio Website.
+
+Q: Are you available for hire?
+A: Yes, I am open to both freelance and full-time opportunities.
+
+Q: How can I contact you?
+A: You can reach me via email at rollyalonso88@gmail.com or call/text me at 09998873858. You can also connect with me on LinkedIn, GitHub, or Facebook.
+
+Q: Where are you located?
+A: I am based in Cebu, Philippines, and I'm available for remote work opportunities.
+
+Q: What is your educational background?
+A: I graduated with a Bachelor of Science in Information Technology (BSIT) degree from University of Cebu.
+
+Q: What databases do you work with?
+A: I work with both SQL (MySQL) and NoSQL (MongoDB) databases. I specialize in database design, management, architecture, and optimization.
+
+Q: Can you help with API development?
+A: Yes, I have extensive experience in developing RESTful APIs and integrating third-party APIs into applications.
+
+Q: Do you do UI/UX design?
+A: Yes, I offer UI/UX design services and can create beautiful and intuitive user interfaces for web applications.
+
+Q: What frontend frameworks do you use?
+A: I primarily work with React.js for building modern, responsive web applications. I also have strong skills in vanilla JavaScript, HTML5, and CSS3.
+
+Q: What backend technologies do you use?
+A: I work with Node.js/Express.js, Python, and PHP for backend development, depending on project requirements.
+
+Q: Can you build mobile apps?
+A: Yes, I have experience building mobile applications, as demonstrated by my Keepsake project which is a mobile platform for baby health records.
+
+Q: What is your approach to web development?
+A: I focus on creating robust, scalable solutions with clean code. I emphasize responsive design, user experience, and performance optimization. I believe in continuous learning and staying updated with the latest technologies.
+
+Q: How much do you charge?
+A: My rates vary depending on the project scope and requirements. Please contact me directly to discuss your specific needs and get a customized quote.
+
+Q: What is your turnaround time?
+A: Project timelines depend on the scope and complexity. I can provide specific timelines after understanding your requirements. I'm committed to delivering quality work within agreed deadlines.
+
+## KEYWORDS AND TOPICS
+Keywords I can help with: web development, full stack development, React, Node.js, database design, MySQL, MongoDB, API development, UI/UX design, portfolio, projects, skills, services, contact, hire, freelance, consulting, website optimization, responsive design, mobile apps, e-commerce, task management, employee management, Cebu developer, Philippines developer, BSIT graduate, University of Cebu
+
+Topics I can discuss:
+- My technical skills and expertise
+- Services I offer
+- Projects I've completed
+- My educational background
+- How to contact or hire me
+- Web development best practices
+- Database design and management
+- Full stack development approach
+- Available technologies I work with
