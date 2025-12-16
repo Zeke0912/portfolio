@@ -72,24 +72,31 @@ After deployment, you should have:
 
 ### C. Configure LLM (Language Model)
 1. Go to "LLMs" section
-2. Choose your preferred provider:
+2. Choose your LLM provider:
 
-   **Option 1: OpenAI (Most Popular)**
+   **⭐ RECOMMENDED: Google Gemini (You already have API key!)**
+   - ✅ FREE generous quota (perfect for portfolio)
+   - ✅ Fast response times
+   - ✅ Good quality responses
+   - Get API key from https://makersuite.google.com/app/apikey or https://aistudio.google.com/app/apikey
+   - Model: `gemini-1.5-flash` (recommended for speed) or `gemini-1.5-pro` (better quality)
+   - Temperature: 0.7
+   - **Use your existing Gemini API key!**
+
+   **Option 2: OpenAI (Paid)**
    - Get API key from https://platform.openai.com/api-keys
    - Model: gpt-3.5-turbo or gpt-4
    - Temperature: 0.7
+   - Cost: ~$0.002 per 1K tokens
 
-   **Option 2: Google Gemini (You're already using this)**
-   - Get API key from https://makersuite.google.com/app/apikey
-   - Model: gemini-pro
-   - Temperature: 0.7
-
-   **Option 3: Anthropic Claude**
+   **Option 3: Anthropic Claude (Paid)**
    - Get API key from https://console.anthropic.com/
    - Model: claude-3-sonnet or claude-3-opus
+   - Cost: Pay per token
 
-3. Enter your API key
+3. Enter your Gemini API key
 4. Test the connection
+5. Save configuration
 
 ### D. Build RAG Chain
 1. Go to "Chatflows"
@@ -229,16 +236,22 @@ LOG_PATH=/root/.flowise/logs
 
 ## COST CONSIDERATIONS
 
-**Free Options:**
+**✅ RECOMMENDED FREE STACK (Perfect for Portfolio):**
 - Flowise: Self-host on Render/Railway free tier
-- LLM: Google Gemini has generous free tier
+- **LLM: Google Gemini FREE tier** ⭐ (You already have the key!)
+  - Generous free quota: 60 requests per minute
+  - Perfect for personal portfolio
+  - Fast and reliable
 - Vector Store: Pinecone free tier (1M vectors), Supabase free tier
+- **Total Cost: $0/month** 🎉
 
-**Paid Options (Better Performance):**
-- Flowise Cloud: ~$20/month
+**Paid Options (If You Need More):**
+- Flowise Cloud: ~$20/month (no sleep time, better performance)
 - OpenAI API: Pay per token (~$0.002 per 1K tokens)
-- Pinecone: ~$70/month for production
-- Vector Store: Hosted options available
+- Pinecone Pro: ~$70/month for production scale
+- Better hosting options
+
+**Recommendation:** Start with the free stack using your Gemini API key. Upgrade later only if needed.
 
 ## NEXT STEPS
 
