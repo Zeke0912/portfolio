@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nPrepare portfolio for Flowise RAG chatbot integration\n\n- Created comprehensive knowledge base (knowledge-base.txt)\n- Updated index.html for Flowise integration\n- Added complete setup guides:\n  * IMPLEMENTATION_ROADMAP.md - Master implementation guide\n  * FLOWISE_SETUP_GUIDE.md - Flowise setup instructions\n  * INTEGRATION_GUIDE.md - Website integration guide\n  * NETLIFY_DEPLOYMENT.md - Deployment and domain setup\n- Added README.md with project overview\n- Removed embedded chatbot section (replaced with Flowise widget)\n- Ready for Flowise deployment and Netlify hosting\nEOF\n)\")",
+      "Bash(git commit:*)"
+    ]
+  }
+}

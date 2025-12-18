@@ -61,7 +61,7 @@ Your Flowise flow should look EXACTLY like this:
 1. Go to https://render.com/
 2. Sign up with GitHub
 3. Click "New +" → "Web Service"
-4. Use Docker image: `flowiseai/flowise`
+4. Use Docker image: `  
 5. Wait for deployment (5-10 minutes)
 6. Open the URL provided (e.g., https://your-app.onrender.com)
 
