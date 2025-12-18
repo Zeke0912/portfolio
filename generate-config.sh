@@ -1,21 +1,22 @@
 #!/bin/bash
 
-echo "Generating chatbot-config.js from environment variables..."
+echo "Generating chatbot-config.js..."
 
-# Check if required environment variables are set
-if [ -z "$CHATBOT_CHATFLOW_ID" ]; then
-    echo "ERROR: CHATBOT_CHATFLOW_ID environment variable is not set"
-    echo "Please set it in Netlify dashboard under Site settings > Environment variables"
-    exit 1
-fi
-
-# Set defaults for optional variables
+# Set defaults from production values (can be overridden by environment variables)
+CHATBOT_CHATFLOW_ID=${CHATBOT_CHATFLOW_ID:-"82f0b30c-3695-47dd-b487-a1e03fc70986"}
 CHATBOT_API_HOST=${CHATBOT_API_HOST:-"https://cloud.flowiseai.com"}
 CHATBOT_PRIMARY_COLOR=${CHATBOT_PRIMARY_COLOR:-"#6366f1"}
-CHATBOT_WELCOME_MESSAGE=${CHATBOT_WELCOME_MESSAGE:-"Hi! I'm your AI assistant. How can I help you today?"}
-CHATBOT_COMPANY_NAME=${CHATBOT_COMPANY_NAME:-"Portfolio"}
-CHATBOT_FALLBACK_EMAIL=${CHATBOT_FALLBACK_EMAIL:-"contact@example.com"}
-CHATBOT_FALLBACK_PHONE=${CHATBOT_FALLBACK_PHONE:-"N/A"}
+CHATBOT_WELCOME_MESSAGE=${CHATBOT_WELCOME_MESSAGE:-"Hi! I'm Rolly's AI assistant. Ask me about his skills, projects, or services!"}
+CHATBOT_COMPANY_NAME=${CHATBOT_COMPANY_NAME:-"Rolly Alonso"}
+CHATBOT_FALLBACK_EMAIL=${CHATBOT_FALLBACK_EMAIL:-"rollyalonso88@gmail.com"}
+CHATBOT_FALLBACK_PHONE=${CHATBOT_FALLBACK_PHONE:-"09998873858"}
+
+# Check if using environment variables or defaults
+if [ -n "$CHATBOT_CHATFLOW_ID_OVERRIDE" ]; then
+    echo "Using environment variables from Netlify dashboard"
+else
+    echo "Using production defaults (set CHATBOT_* environment variables to override)"
+fi
 
 # Generate chatbot-config.js
 cat > chatbot-config.js << EOF
