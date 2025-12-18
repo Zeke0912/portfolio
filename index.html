@@ -288,63 +288,34 @@
         });
     </script>
 
+    <!-- Chatbot Configuration -->
+    <script src="chatbot-config.js"></script>
+
     <!-- Flowise Chatbot Integration -->
     <script type="module">
         import Chatbot from 'https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js';
 
-        // Initialize chatbot with error handling
-        try {
-            Chatbot.init({
-                chatflowid: '82f0b30c-3695-47dd-b487-a1e03fc70986',
-                apiHost: 'https://cloud.flowiseai.com',
-
-                theme: {
-                    button: {
-                        backgroundColor: '#6366f1',  // Primary indigo color
-                        right: 20,
-                        bottom: 20,
-                        size: 'medium',
-                        iconColor: 'white',
-                    },
-
-                    chatWindow: {
-                        welcomeMessage: "Hi! I'm Rolly's AI assistant. Ask me about his skills, projects, or services!",
-                        backgroundColor: '#ffffff',
-                        height: 600,
-                        width: 400,
-                        fontSize: 16,
-
-                        botMessage: {
-                            backgroundColor: '#f7f8ff',  // Very light indigo
-                            textColor: '#303235',
-                        },
-
-                        userMessage: {
-                            backgroundColor: '#6366f1',  // Primary color
-                            textColor: '#ffffff',
-                        },
-
-                        textInput: {
-                            placeholder: 'Type your message...',
-                            backgroundColor: '#ffffff',
-                            textColor: '#303235',
-                            sendButtonColor: '#6366f1',  // Primary color
-                        },
-                        footer: {
-                    textColor: '#303235',
-                    text: 'Powered by',
-                    company: 'Rolly Alonso',
-                    companyLink: 'https://flowiseai.com'
-                }
-                    }
-                }
-            });
-
-            console.log('Flowise chatbot initialized successfully');
-        } catch (error) {
-            console.error('Failed to initialize Flowise chatbot:', error);
+        // Wait for config to load
+        if (!window.CHATBOT_CONFIG) {
+            console.error('Chatbot configuration not found. Please create chatbot-config.js from chatbot-config.example.js');
             if (window.handleChatbotError) {
-                window.handleChatbotError(error, 'Initialization failed');
+                window.handleChatbotError(new Error('Configuration missing'), 'Config file not loaded');
+            }
+        } else {
+            // Initialize chatbot with error handling
+            try {
+                Chatbot.init({
+                    chatflowid: window.CHATBOT_CONFIG.chatflowid,
+                    apiHost: window.CHATBOT_CONFIG.apiHost,
+                    theme: window.CHATBOT_CONFIG.theme
+                });
+
+                console.log('Flowise chatbot initialized successfully');
+            } catch (error) {
+                console.error('Failed to initialize Flowise chatbot:', error);
+                if (window.handleChatbotError) {
+                    window.handleChatbotError(error, 'Initialization failed');
+                }
             }
         }
     </script>
@@ -352,13 +323,13 @@
     <!-- Chatbot Analytics & Error Monitoring -->
     <script>
         (function() {
-            // Configuration
+            // Configuration from chatbot-config.js
             const config = {
-                enableAnalytics: true,
-                enableErrorLogging: true,
-                analyticsEndpoint: null, // Set to your analytics endpoint if available
-                fallbackEmail: 'rollyalonso88@gmail.com',
-                fallbackPhone: '09998873858'
+                enableAnalytics: window.CHATBOT_CONFIG?.analytics?.enableAnalytics ?? true,
+                enableErrorLogging: window.CHATBOT_CONFIG?.analytics?.enableErrorLogging ?? true,
+                analyticsEndpoint: window.CHATBOT_CONFIG?.analytics?.analyticsEndpoint ?? null,
+                fallbackEmail: window.CHATBOT_CONFIG?.fallback?.email ?? 'rollyalonso88@gmail.com',
+                fallbackPhone: window.CHATBOT_CONFIG?.fallback?.phone ?? '09998873858'
             };
 
             // Analytics tracking
